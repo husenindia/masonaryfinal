@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+/*********** CORE ***********/
+ul.mega-sub-menu-main > li { position:absolute; }
+ul.other-sub-menu-main > li { position:absolute; }
+/* THEME CSS */
+ul > li { list-style:none; }
+ul.mega-sub-menu-main > li { background:#333;  }
+ul > li > a { color:#000; padding:10px; display:block; background:#CCC; }
+.mega-sub-menu-main > li > a { background-color:#00F; color:#FFF; }
+#mega-menu-primary > li > ul > li { position:absolute; }
+#mega-menu-primary > li > ul { position:relative; }
